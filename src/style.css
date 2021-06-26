@@ -1,0 +1,283 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Overpass;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 100px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff8f70), to(#ff3d54));
+  background-image: linear-gradient(to bottom right, #ff8f70, #ff3d54);
+  font-family: Overpass;
+  color: white;
+}
+
+header .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  font-weight: 500;
+}
+
+header .main__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60vw;
+}
+
+header .main__nav nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30vw;
+  padding: 0 100px;
+}
+
+header .main__nav nav > ul li {
+  list-style: none;
+}
+
+header .main__nav nav > ul li .main__nav--itemrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .main__nav nav > ul li .main__nav--itemrow .arrow {
+  margin-left: 10px;
+}
+
+header .main__nav nav > ul li .main__nav--itemcontent {
+  display: none;
+}
+
+header .main__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+}
+
+header .main__buttons--login {
+  padding: 12px 50px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+header .main__buttons--login:hover {
+  background-color: #ff7a85;
+  -webkit-box-shadow: 7px 5px 19px 0px #ff525d;
+          box-shadow: 7px 5px 19px 0px #ff525d;
+  color: #ff525d;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .main__buttons--signup {
+  padding: 12px 30px;
+  border-radius: 25px;
+  background-color: white;
+  color: #ff525d;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+header .main__buttons--signup:hover {
+  background-color: #ff7a85;
+  -webkit-box-shadow: 7px 5px 19px 0px #ff525d;
+          box-shadow: 7px 5px 19px 0px #ff525d;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .body__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  margin-top: 20px;
+}
+
+header .body__buttons--start {
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: white;
+  color: #ff525d;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+header .body__buttons--start:hover {
+  background-color: #ff7a85;
+  -webkit-box-shadow: 7px 5px 19px 0px #ff525d;
+          box-shadow: 7px 5px 19px 0px #ff525d;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .body__buttons--learn {
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+}
+
+header .body__buttons--learn:hover {
+  background-color: white;
+  -webkit-box-shadow: 7px 5px 19px 0px #ff525d;
+          box-shadow: 7px 5px 19px 0px #ff525d;
+  color: #ff525d;
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+header .body__headline {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+header .body__subtitle {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
