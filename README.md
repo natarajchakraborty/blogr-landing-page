@@ -1,7 +1,5 @@
 ## Bloger Landing Page:
 
-**Designs in design folder
-
 ## Design Preview
 
 ![Desktop Preview](./design/desktop-preview.jpg)
