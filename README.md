@@ -6,11 +6,6 @@
 
 ![Desktop Preview](./design/desktop-preview.jpg)
 
-![Desktop Design](./design/desktop-design.jpg)
-
-![Mobile Design](./design/mobile-design.jpg)
-
-![Mobile Menu](./design/mobile-design.jpg)
 
 ![Mobile Menu](./design/mobile-menu.jpg)
 
