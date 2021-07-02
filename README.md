@@ -11,6 +11,8 @@ In Progress URL: [Github Pages](https://natarajchakraborty.github.io/blogr-landi
 ![Desktop Preview](./design/desktop-preview.jpg)
 
 **Mobile Menu**
+
+
 ![Mobile Menu](./design/mobile-menu.jpg)
 
 **Active States**
